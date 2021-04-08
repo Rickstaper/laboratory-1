@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:lab1.Triangle">
+            <summary>
+            Flat figure representation - triangle
+            </summary>
+        </member>
+        <member name="M:lab1.Triangle.#ctor(lab1.Point,lab1.Point,lab1.Point)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="point1">A point</param>
+            <param name="point2">B point</param>
+            <param name="point3">C point</param>
+        </member>
+    </members>
+</doc>
