@@ -4,6 +4,32 @@
         <name>ClassLibrary</name>
     </assembly>
     <members>
+        <member name="M:lab1.Circle.#ctor(lab1.Point,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="point"></param>
+            <param name="radius"></param>
+        </member>
+        <member name="M:lab1.Circle.Area">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:lab1.Circle.Perimeter">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:lab1.Circle.Validation(lab1.Point)">
+            <summary>
+            
+            </summary>
+            <param name="point"></param>
+            <returns></returns>
+        </member>
         <member name="T:lab1.Triangle">
             <summary>
             Flat figure representation - triangle

@@ -29,6 +29,11 @@ namespace lab1
             AC = Math.Sqrt (Math.Pow (C.X - A.X, 2) + Math.Pow (C.Y - A.Y, 2));
         }
 
+        public override string ToString ()
+        {
+            return $"Area:{this.Area ()}\nPerimeter:{this.Perimeter ()}\nSides:{this.Sides()}";
+        }
+
         public string Sides ()
         {
             return $"AB:{AB}\nBC:{BC}\nAC:{AC}";

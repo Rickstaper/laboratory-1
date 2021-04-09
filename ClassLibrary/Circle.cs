@@ -6,9 +6,6 @@ namespace lab1
 {
     public class Circle
     {
-        /// <summary>
-        /// 
-        /// </summary>
         public Point Center { get; set; }
         public double Radius { get; set; }
 
@@ -21,6 +18,11 @@ namespace lab1
         {
             Center = point;
             Radius = radius;
+        }
+
+        public override string ToString ()
+        {
+            return $"Area:{this.Area()}\nPerimeter:{this.Perimeter()}";
         }
 
         /// <summary>
@@ -49,7 +51,7 @@ namespace lab1
         public bool Validation(Point point)
         {
             // Distance between center and target point
-            double x = Math.Sqrt (Math.Pow (point.X - Center.X, 2) + Math.Pow (point.Y - Center.Y, 2);
+            double x = Math.Sqrt (Math.Pow (point.X - Center.X, 2) + Math.Pow (point.Y - Center.Y, 2));
 
             if (x > Radius)
                 return false;
